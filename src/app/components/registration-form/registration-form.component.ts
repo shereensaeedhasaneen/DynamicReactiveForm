@@ -42,7 +42,7 @@ export class RegistrationFormComponent implements OnInit {
       {ID: 'Gender', Label: 'Gender', Type: 'radio', Value: 'male , female', Required: true},
       {ID: 'Address', Label: 'Address', Type: 'input', Value: '', Required: true}
                            ]
-                           this.createFormControl(this.dynamicFormArray2 , this.registerationForm2);
+    this.createFormControl(this.dynamicFormArray2 , this.registerationForm2);
     console.log(this.nextStep)
 
   }
